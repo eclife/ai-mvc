@@ -8,6 +8,8 @@ conda activate ai-mvc</code>
 pip install tensorflow-macos tensorflow-metal  # 启用 GPU 加速</code>
 
 <code>pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu</code>
+conda install pytorch torchvision torchaudio -c pytorch
+conda install numpy pandas matplotlib scikit-learn
 
 <code>pip install jupyterlab matplotlib scikit-learn pandas  # Jupyter 和数据处理</code>
 
